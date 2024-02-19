@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 50vw;
+    margin: auto;
+}
+.card
+{
+    background-color: rgb(39, 132, 168);
+    color: white;
+    padding: 1.5rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: rgba(255, 0, 0, 0.61);
+}
+.searchBox
+{
+  
+    margin-top: 5rem;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+}
+input
+{
+    font-size: xx-large;
+    background-color: greenyellow;
+    color: rgb(6, 21, 33);
+    text-align: center;
+}
+button
+{
+    font-size: xx-large;
+    background-color: greenyellow;
+    color: rgb(6, 21, 33);
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+@media screen and (max-width:1020px) {
+    .container
+    {
+    width: 80%;
+    margin: auto;
+    }
+}
+@media screen and (max-width:650px) {
+    .container
+    {
+    width: 100%;
+    margin: auto;
+    }
+}
+@media screen and (max-width:515px) {
+    .searchBox
+    {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+  }
+  .card
+{  
+    font-size: 1.5rem;
+}
+
+}
+@media screen and (max-width:400px) {
+    .card
+    {  
+        font-size: 1.2rem;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    input
+{
+    font-size: 2rem;
+    height: 3rem;
+    width: 12rem;
+    
+}
+button{
+    font-size: 1.5rem;
+    height: 3rem;
+}
+}
